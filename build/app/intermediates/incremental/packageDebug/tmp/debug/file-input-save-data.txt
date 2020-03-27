@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 19 21:56:09 IST 2019
+#Tue Dec 10 13:06:01 IST 2019
 5.base=/Users/anirudhsharma/StudioProjects/augmented_reaility/build/app/intermediates/transforms/mergeJniLibs/debug/0
 42.base=/Users/anirudhsharma/StudioProjects/augmented_reaility/build/app/intermediates/transforms/mergeJniLibs/debug/0
 22.path=lib/x86/libarsceneview_jni.so

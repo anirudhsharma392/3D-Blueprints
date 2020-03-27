@@ -4,9 +4,10 @@ A flutter application made for AR implementation.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The app uses the camera of the phone to scan a QR code placed in the desired position where you want to render the object. The QR code contains a link to a 3D object hosted on a file sharing website which then downloads the model rendered onto our device and is ready to be placed, as well as an anchor containing the details of the object i.e. where the user wants to place it, other details of the model etc. The user then has to detect a suitable surface(well lit, plane surface) and then places an anchor which is then shared with the model, as it contains the place where we want to render the object. The anchor is necessary in order to place the object, as when the object goes out of scope of the camera, we still need it to stick where we have initially rendered it, as we do not want to render it again and again. Currently, only one object is supported at a time, but we hope to expand the capability in the future, and also foray into the area of multi user AR, a feature currently unsupported by hybrid apps
 
-A few resources to get you started if this is your first Flutter project:
+## ScreenShots
+
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
